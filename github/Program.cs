@@ -20,6 +20,7 @@ namespace github
 
             //Show details a work item
             ShowWorkItemDetails(connection, workItemId).Wait();
+            Console.WriteLine("3er Commit");
 
         }
         static private async Task ShowWorkItemDetails(VssConnection connection, int workItemId)
